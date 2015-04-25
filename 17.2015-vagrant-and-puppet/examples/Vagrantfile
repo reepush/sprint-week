@@ -1,5 +1,5 @@
 box      = 'ubuntu/trusty64'
-hostname = 'simple.local'
+hostname = 'vm.local'
 
 Vagrant.configure('2') do |config|
   config.vm.box = box
