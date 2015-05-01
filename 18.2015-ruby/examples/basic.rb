@@ -1,10 +1,10 @@
-# ##### output
+##### output
 # puts 'hi there'
 # puts "hi there"
 # print 'and there'
 
 
-# ##### variables and expressions
+##### variables and expressions
 # n = 5
 # puts "n is #{n}"
 
@@ -15,7 +15,7 @@
 # puts "e is #{s}"
 
 
-# ##### type is dynamic
+##### type is dynamic
 # n = 20
 # puts "n is int: #{n}"
 
@@ -23,24 +23,24 @@
 # puts "n is string: #{n}"
 
 
-# ##### everything is object
+##### everything is object
 # n = 10
 # puts n.+(5)*(2)
 # s = String.new('stringy')
 # Kernel.puts s
 
 
-# ##### multiline strings
+##### multiline strings
 # puts "it is multiline
 # JavaScript is crying, really"
 
 
-# ##### interpolation
+##### interpolation
 # what = 'it'
 # puts "I already used #{what}"
 
 
-# ##### string methods
+##### string methods
 # s = 'Hi! I am String, methodical string =_='
 # puts 'length ' + s.length.to_s
 # puts '-triple-' * 3
@@ -52,7 +52,7 @@
 # puts '=_= at ' + s.index('=_=').to_s
 
 
-# ##### arrays
+##### arrays
 # a = [1, 3, 9 , 27, 81]
 # b = [2, 4, 8, 16, 32]
 # print 'concat '.+ (a + b).join(', ') + "\n"
@@ -72,7 +72,7 @@
 # puts 'delete 16 by value ' + b.to_s
 
 
-# ##### hashes
+##### hashes
 # h = { 'key' => 'value', 1 => 2, 'rabbit' => 'carrot'  }
 # puts h
 # puts 'key ' + h['key']
@@ -86,7 +86,7 @@
 # puts 'do we now what rabbit likes? ' + h.has_key?('rabbit').to_s
 
 
-# ##### input
+##### input
 # puts 'with output comes input'
 # input = gets
 # puts input
@@ -99,13 +99,13 @@
 # puts n1.to_i + n2.to_i
 
 
-# ##### reading file
+##### reading file
 # puts 'reading code that reads a code'
 # code = File::read('basic.rb')
 # print code
 
 
-# ##### definition tricks
+##### definition tricks
 # a, b, c = 1, 2, 3
 # print '1 2 3 ', [a, b, c].join(','), "\n"
 
@@ -117,13 +117,13 @@
 # print 'swapped a, b ', a, ' ', b, "\n"
 
 
-# ##### puts and print
+##### puts and print
 # puts 'puts', 'is', 'newliny'
 # print 'while print is ', 'not'
 # print ', so you should add newline by yourself', "\n"
 # puts 'like that'
 
 
-# ##### type checking is strong
+##### type checking is strong
 # puts 'it is not possible to add integer to string' + 5
 # puts 'only with implicit conversion!!' + 1.to_s

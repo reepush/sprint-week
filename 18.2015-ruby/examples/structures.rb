@@ -1,4 +1,4 @@
-# ##### if / else / elsif
+##### if / else / elsif
 # rand = rand(100) + 1
 
 # if rand % 2 == 1 then
@@ -18,7 +18,7 @@
 # if rand == 100 then puts 'rand is max' end
 
 
-# ##### unless / postfix if / if as expression
+##### unless / postfix if / if as expression
 # less = 'more'
 # more = 'less'
 # unless less == 'less'
@@ -35,7 +35,7 @@
 # puts "truthy is #{truthy}"
 
 
-# ##### while
+##### while
 # days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 # puts days.shift while days.size > 0
 
@@ -47,12 +47,12 @@
 # print "\n"
 
 
-# ##### optional parenthesis
+##### optional parenthesis
 # puts('optional?')
 # puts 'optional!'
 
 
-# ##### for loop
+##### for loop
 # for i in (1..4)
 #   print i, ' '
 #   print "\n" if i == 4
@@ -74,7 +74,7 @@
 # end
 
 
-# ##### case
+##### case
 # for i in (1..10)
 #   rand = rand(100) + 1
 #   puts rand
@@ -98,7 +98,7 @@
 # end
 
 
-# ##### iterators
+##### iterators
 # sum = 0
 # squares = [1, 4, 9, 16, 25, 36]
 # squares.each { |i| sum += i }
@@ -121,7 +121,7 @@
 # puts
 
 
-# ##### methods
+##### methods
 # def sqr(x)
 #   return x*x
 # end
@@ -184,7 +184,7 @@
 # a = ['three', 'two', 'one']
 # surround '<', '>', *a
 
-# ##### exceptions
+##### exceptions
 # print 'Filename:'
 # filename = gets.chomp
 # begin
