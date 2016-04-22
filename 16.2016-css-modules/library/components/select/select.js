@@ -1,5 +1,5 @@
 import React from 'react';
-import c from './button.css';
+import c from './select.css';
 import classnames from 'classnames';
 
 export default class Button extends React.Component {
@@ -15,9 +15,6 @@ export default class Button extends React.Component {
     text = classnames(text);
 
     return (
-      <button className={button}>
-        <span className={text}>{this.props.children}</span>
-      </button>
     )
   }
 }
